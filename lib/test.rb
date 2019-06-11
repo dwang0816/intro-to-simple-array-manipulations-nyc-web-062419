@@ -10,4 +10,4 @@ def change_nums(nums)
   puts new_count
 end
 
-change_nums(coo_nums)
+change_nums(cool_nums)
