@@ -4,10 +4,10 @@ def change_nums(nums)
   new_count = []
   nums.each do |x|
     x += 1
-    x >> new_count
+    new_count << x
   end
   return new_count
   
 end
 
-puts cool_nums
+puts change_nums(cool_nums)
