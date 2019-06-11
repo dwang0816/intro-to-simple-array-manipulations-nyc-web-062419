@@ -4,7 +4,7 @@ def change_nums(nums)
   new_count = []
   nums.each do |x|
     x += 1
-    new_count << x
+    x >> new_count
   end
   new_count
   puts new_count
