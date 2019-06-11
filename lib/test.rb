@@ -6,7 +6,8 @@ def change_nums(nums)
     x += 1
     x >> new_count
   end
-  new_count
+  return new_count
+  
 end
 
 puts cool_nums
