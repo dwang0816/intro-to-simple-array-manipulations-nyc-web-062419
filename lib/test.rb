@@ -1,13 +1,13 @@
 cool_nums = [1, 2, 3]
  
 def change_nums(nums)
-  new_count = []
+  cool_nums = []
   nums.each do |x|
     x += 1
-    new_count << x
+    cool_nums << x
   end
-  return new_count
+  new_count
   
 end
 
-puts new_count 
+puts cool_nums 
